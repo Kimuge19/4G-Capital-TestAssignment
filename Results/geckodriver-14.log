@@ -1,0 +1,22 @@
+1711633307059	geckodriver	INFO	Listening on 127.0.0.1:56466
+1711633307134	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/Use ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rt/gjqfbtvs7hx5k9c53xb3sx5m0000gn/T/rust_mozprofileSBKq7L"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711633307401	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1711633307617	Marionette	INFO	Listening on port 56478
+WebDriver BiDi listening on ws://127.0.0.1:56467
+Read port: 56478
+1711633307814	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:56467/devtools/browser/4df0ad59-2f5b-4e5c-8abd-01f93b446dc0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1711633337433	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: aWindow is null
+JavaScript warning: https://www.saucedemo.com/static/js/2.c39c1971.chunk.js, line 2: Script terminated by timeout at:
+get@https://www.saucedemo.com/static/js/2.c39c1971.chunk.js:2:118291
+r/936/n/7429/value/<@https://www.saucedemo.com/static/js/2.c39c1971.chunk.js:2:51414
+
+1711633517281	Marionette	INFO	Stopped listening on port 56478
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

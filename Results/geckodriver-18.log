@@ -1,0 +1,15 @@
+1711633530223	geckodriver	INFO	Listening on 127.0.0.1:57722
+1711633530307	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/Use ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rt/gjqfbtvs7hx5k9c53xb3sx5m0000gn/T/rust_mozprofilehnyAeE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711633530600	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1711633530882	Marionette	INFO	Listening on port 57734
+WebDriver BiDi listening on ws://127.0.0.1:57723
+Read port: 57734
+1711633531085	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:57723/devtools/browser/fc264094-cea5-4f76-9b6c-40fd137bedc4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1711633534571	Marionette	INFO	Stopped listening on port 57734
+!!! error running onStopped callback: TypeError: callback is not a function
