@@ -1,6 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
-Resource    ../Data/Data.robot
+Resource    ../../Data/Data.robot
 
 *** Keywords ***
 launch of landing page

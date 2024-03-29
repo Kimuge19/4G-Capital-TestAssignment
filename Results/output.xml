@@ -1,192 +1,192 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0 (Python 3.10.13 on darwin)" generated="2024-03-28T16:45:24.156887" rpa="false" schemaversion="5">
-<suite id="s1" name="Tests" source="/Users/angie/Desktop/Minidesktop/Automation/SauceDemo/Tests">
-<suite id="s1-s1" name="SauceDemo HappyPath" source="/Users/angie/Desktop/Minidesktop/Automation/SauceDemo/Tests/SauceDemo_HappyPath.robot">
+<robot generator="Robot 6.1.1 (Python 3.12.1 on win32)" generated="20240329 17:24:43.898" rpa="false" schemaversion="4">
+<suite id="s1" name="Tests" source="C:\Users\Andrew Kimuge\Desktop\QA 4G Capital\angies\SauceDemo\Tests">
+<suite id="s1-s1" name="SauceDemo HappyPath" source="C:\Users\Andrew Kimuge\Desktop\QA 4G Capital\angies\SauceDemo\Tests\SauceDemo_HappyPath.robot">
 <test id="s1-s1-t1" name="open browser and verify site loads" line="12">
-<kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-03-28T16:45:24.305756" level="INFO">Opening browser 'firefox' to base url 'None'.</msg>
+<kw name="Open Browser" library="SeleniumLibrary">
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-03-28T16:45:24.305663" elapsed="1.690980"/>
+<msg timestamp="20240329 17:24:44.024" level="INFO">Opening browser 'firefox' to base url 'None'.</msg>
+<status status="PASS" starttime="20240329 17:24:44.024" endtime="20240329 17:24:50.773"/>
 </kw>
-<kw name="Go To" owner="SeleniumLibrary">
-<msg time="2024-03-28T16:45:25.997050" level="INFO">Opening url 'https://www.saucedemo.com/'</msg>
+<kw name="Go To" library="SeleniumLibrary">
 <arg>https://www.saucedemo.com/</arg>
 <doc>Navigates the current browser window to the provided ``url``.</doc>
-<status status="PASS" start="2024-03-28T16:45:25.996925" elapsed="2.239192"/>
+<msg timestamp="20240329 17:24:50.774" level="INFO">Opening url 'https://www.saucedemo.com/'</msg>
+<status status="PASS" starttime="20240329 17:24:50.774" endtime="20240329 17:24:54.524"/>
 </kw>
-<kw name="And user maximises browser" owner="Keywords">
-<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<kw name="And user maximises browser" library="Keywords">
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2024-03-28T16:45:28.237588" elapsed="0.514231"/>
+<status status="PASS" starttime="20240329 17:24:54.525" endtime="20240329 17:24:54.801"/>
 </kw>
-<status status="PASS" start="2024-03-28T16:45:28.237003" elapsed="0.514957"/>
+<status status="PASS" starttime="20240329 17:24:54.525" endtime="20240329 17:24:54.801"/>
 </kw>
-<kw name="And User Verifies Site Loads" owner="Keywords">
-<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<kw name="And User Verifies Site Loads" library="Keywords">
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <arg>Swag Labs</arg>
 <arg>8s</arg>
 <doc>Waits until ``text`` appears on the current page.</doc>
-<status status="PASS" start="2024-03-28T16:45:28.752463" elapsed="0.009380"/>
+<status status="PASS" starttime="20240329 17:24:54.802" endtime="20240329 17:24:54.818"/>
 </kw>
-<status status="PASS" start="2024-03-28T16:45:28.752227" elapsed="0.009732"/>
+<status status="PASS" starttime="20240329 17:24:54.802" endtime="20240329 17:24:54.818"/>
 </kw>
-<status status="PASS" start="2024-03-28T16:45:24.305174" elapsed="4.456949"/>
+<status status="PASS" starttime="20240329 17:24:44.023" endtime="20240329 17:24:54.819"/>
 </test>
 <test id="s1-s1-t2" name="user Log in and verifies HomePage" line="17">
-<kw name="When User Enters Valid Username &amp; Password" owner="Keywords">
-<kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-03-28T16:45:28.763131" level="INFO">Typing text 'standard_user' into text field 'user-name'.</msg>
+<kw name="When User Enters Valid Username &amp; Password" library="Keywords">
+<kw name="Input Text" library="SeleniumLibrary">
 <arg>user-name</arg>
 <arg>standard_user</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-03-28T16:45:28.762861" elapsed="0.038023"/>
+<msg timestamp="20240329 17:24:54.821" level="INFO">Typing text 'standard_user' into text field 'user-name'.</msg>
+<status status="PASS" starttime="20240329 17:24:54.821" endtime="20240329 17:24:54.875"/>
 </kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-03-28T16:45:28.801176" level="INFO">Typing text 'secret_sauce' into text field 'password'.</msg>
+<kw name="Input Text" library="SeleniumLibrary">
 <arg>password</arg>
 <arg>secret_sauce</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-03-28T16:45:28.801035" elapsed="0.010952"/>
+<msg timestamp="20240329 17:24:54.875" level="INFO">Typing text 'secret_sauce' into text field 'password'.</msg>
+<status status="PASS" starttime="20240329 17:24:54.875" endtime="20240329 17:24:54.894"/>
 </kw>
-<status status="PASS" start="2024-03-28T16:45:28.762663" elapsed="0.049407"/>
+<status status="PASS" starttime="20240329 17:24:54.820" endtime="20240329 17:24:54.894"/>
 </kw>
-<kw name="And User Clicks log in button" owner="Keywords">
-<kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2024-03-28T16:45:28.812503" level="INFO">Clicking button 'login-button'.</msg>
+<kw name="And User Clicks log in button" library="Keywords">
+<kw name="Click Button" library="SeleniumLibrary">
 <arg>login-button</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2024-03-28T16:45:28.812399" elapsed="0.228599"/>
+<msg timestamp="20240329 17:24:54.895" level="INFO">Clicking button 'login-button'.</msg>
+<status status="PASS" starttime="20240329 17:24:54.894" endtime="20240329 17:24:55.146"/>
 </kw>
-<status status="PASS" start="2024-03-28T16:45:28.812243" elapsed="0.228867"/>
+<status status="PASS" starttime="20240329 17:24:54.894" endtime="20240329 17:24:55.146"/>
 </kw>
-<kw name="Then User Verifies SauceDemo Homepage" owner="Keywords">
-<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<kw name="Then User Verifies SauceDemo Homepage" library="Keywords">
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <arg>Products</arg>
 <doc>Waits until ``text`` appears on the current page.</doc>
-<status status="PASS" start="2024-03-28T16:45:29.041674" elapsed="0.002587"/>
+<status status="PASS" starttime="20240329 17:24:55.148" endtime="20240329 17:24:55.154"/>
 </kw>
-<status status="PASS" start="2024-03-28T16:45:29.041377" elapsed="0.002975"/>
+<status status="PASS" starttime="20240329 17:24:55.148" endtime="20240329 17:24:55.154"/>
 </kw>
-<status status="PASS" start="2024-03-28T16:45:28.762338" elapsed="0.282155"/>
+<status status="PASS" starttime="20240329 17:24:54.820" endtime="20240329 17:24:55.154"/>
 </test>
 <test id="s1-s1-t3" name="user adds item to cart" line="22">
-<kw name="Given user adds product to cart" owner="Keywords">
-<kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2024-03-28T16:45:29.045250" level="INFO">Clicking button 'add-to-cart-sauce-labs-backpack'.</msg>
+<kw name="Given user adds product to cart" library="Keywords">
+<kw name="Click Button" library="SeleniumLibrary">
 <arg>add-to-cart-sauce-labs-backpack</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2024-03-28T16:45:29.045123" elapsed="0.214540"/>
+<msg timestamp="20240329 17:24:55.158" level="INFO">Clicking button 'add-to-cart-sauce-labs-backpack'.</msg>
+<status status="PASS" starttime="20240329 17:24:55.157" endtime="20240329 17:24:55.378"/>
 </kw>
-<status status="PASS" start="2024-03-28T16:45:29.044944" elapsed="0.214870"/>
+<status status="PASS" starttime="20240329 17:24:55.157" endtime="20240329 17:24:55.378"/>
 </kw>
-<status status="PASS" start="2024-03-28T16:45:29.044651" elapsed="0.215393"/>
+<status status="PASS" starttime="20240329 17:24:55.156" endtime="20240329 17:24:55.379"/>
 </test>
 <test id="s1-s1-t4" name="user verifies added product exists in cart" line="25">
-<kw name="And verify product in cart" owner="Keywords">
-<kw name="Click Link" owner="SeleniumLibrary">
-<msg time="2024-03-28T16:45:29.261363" level="INFO">Clicking link '//a[@class='shopping_cart_link']'.</msg>
+<kw name="And verify product in cart" library="Keywords">
+<kw name="Click Link" library="SeleniumLibrary">
 <arg>//a[@class='shopping_cart_link']</arg>
 <doc>Clicks a link identified by ``locator``.</doc>
-<status status="PASS" start="2024-03-28T16:45:29.261136" elapsed="0.223497"/>
+<msg timestamp="20240329 17:24:55.381" level="INFO">Clicking link '//a[@class='shopping_cart_link']'.</msg>
+<status status="PASS" starttime="20240329 17:24:55.380" endtime="20240329 17:24:55.596"/>
 </kw>
-<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <arg>Your Cart</arg>
 <doc>Waits until ``text`` appears on the current page.</doc>
-<status status="PASS" start="2024-03-28T16:45:29.485079" elapsed="0.004125"/>
+<status status="PASS" starttime="20240329 17:24:55.596" endtime="20240329 17:24:55.600"/>
 </kw>
-<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>//div[@class='inventory_item_name']</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2024-03-28T16:45:29.489471" elapsed="0.011185"/>
+<status status="PASS" starttime="20240329 17:24:55.601" endtime="20240329 17:24:55.619"/>
 </kw>
-<kw name="Close Browser" owner="SeleniumLibrary">
+<kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2024-03-28T16:45:29.500841" elapsed="0.616967"/>
+<status status="PASS" starttime="20240329 17:24:55.619" endtime="20240329 17:24:58.353"/>
 </kw>
-<status status="PASS" start="2024-03-28T16:45:29.260835" elapsed="0.857085"/>
+<status status="PASS" starttime="20240329 17:24:55.380" endtime="20240329 17:24:58.353"/>
 </kw>
-<status status="PASS" start="2024-03-28T16:45:29.260296" elapsed="0.857832"/>
+<status status="PASS" starttime="20240329 17:24:55.380" endtime="20240329 17:24:58.354"/>
 </test>
-<status status="PASS" start="2024-03-28T16:45:24.170937" elapsed="5.947646"/>
+<status status="PASS" starttime="20240329 17:24:43.912" endtime="20240329 17:24:58.357"/>
 </suite>
-<suite id="s1-s2" name="UnhappyPath" source="/Users/angie/Desktop/Minidesktop/Automation/SauceDemo/Tests/UnhappyPath.robot">
+<suite id="s1-s2" name="UnhappyPath" source="C:\Users\Andrew Kimuge\Desktop\QA 4G Capital\angies\SauceDemo\Tests\UnhappyPath.robot">
 <test id="s1-s2-t1" name="open browser and verify site loads" line="12">
-<kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-03-28T16:45:30.121616" level="INFO">Opening browser 'firefox' to base url 'None'.</msg>
+<kw name="Open Browser" library="SeleniumLibrary">
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-03-28T16:45:30.121499" elapsed="1.590530"/>
+<msg timestamp="20240329 17:24:58.367" level="INFO">Opening browser 'firefox' to base url 'None'.</msg>
+<status status="PASS" starttime="20240329 17:24:58.367" endtime="20240329 17:25:03.683"/>
 </kw>
-<kw name="Go To" owner="SeleniumLibrary">
-<msg time="2024-03-28T16:45:31.712513" level="INFO">Opening url 'https://www.saucedemo.com/'</msg>
+<kw name="Go To" library="SeleniumLibrary">
 <arg>https://www.saucedemo.com/</arg>
 <doc>Navigates the current browser window to the provided ``url``.</doc>
-<status status="PASS" start="2024-03-28T16:45:31.712380" elapsed="2.043415"/>
+<msg timestamp="20240329 17:25:03.684" level="INFO">Opening url 'https://www.saucedemo.com/'</msg>
+<status status="PASS" starttime="20240329 17:25:03.684" endtime="20240329 17:25:05.916"/>
 </kw>
-<kw name="And user maximises browser" owner="Keywords">
-<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<kw name="And user maximises browser" library="Keywords">
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2024-03-28T16:45:33.756734" elapsed="0.516444"/>
+<status status="PASS" starttime="20240329 17:25:05.917" endtime="20240329 17:25:06.210"/>
 </kw>
-<status status="PASS" start="2024-03-28T16:45:33.756345" elapsed="0.516942"/>
+<status status="PASS" starttime="20240329 17:25:05.917" endtime="20240329 17:25:06.210"/>
 </kw>
-<kw name="And User Verifies Site Loads" owner="Keywords">
-<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<kw name="And User Verifies Site Loads" library="Keywords">
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <arg>Swag Labs</arg>
 <arg>8s</arg>
 <doc>Waits until ``text`` appears on the current page.</doc>
-<status status="PASS" start="2024-03-28T16:45:34.273786" elapsed="0.009238"/>
+<status status="PASS" starttime="20240329 17:25:06.210" endtime="20240329 17:25:06.221"/>
 </kw>
-<status status="PASS" start="2024-03-28T16:45:34.273554" elapsed="0.009572"/>
+<status status="PASS" starttime="20240329 17:25:06.210" endtime="20240329 17:25:06.221"/>
 </kw>
-<status status="PASS" start="2024-03-28T16:45:30.121194" elapsed="4.162086"/>
+<status status="PASS" starttime="20240329 17:24:58.366" endtime="20240329 17:25:06.221"/>
 </test>
 <test id="s1-s2-t2" name="user Log in and verifies HomePage" line="17">
-<kw name="Given user enters invalid username &amp; password" owner="Keywords">
-<kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-03-28T16:45:34.284122" level="INFO">Typing text 'standard' into text field 'user-name'.</msg>
+<kw name="Given user enters invalid username &amp; password" library="Keywords">
+<kw name="Input Text" library="SeleniumLibrary">
 <arg>user-name</arg>
 <arg>standard</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-03-28T16:45:34.283978" elapsed="0.036222"/>
+<msg timestamp="20240329 17:25:06.223" level="INFO">Typing text 'standard' into text field 'user-name'.</msg>
+<status status="PASS" starttime="20240329 17:25:06.222" endtime="20240329 17:25:06.273"/>
 </kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-03-28T16:45:34.320616" level="INFO">Typing text 'secret_' into text field 'password'.</msg>
+<kw name="Input Text" library="SeleniumLibrary">
 <arg>password</arg>
 <arg>secret_</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-03-28T16:45:34.320419" elapsed="0.009067"/>
+<msg timestamp="20240329 17:25:06.274" level="INFO">Typing text 'secret_' into text field 'password'.</msg>
+<status status="PASS" starttime="20240329 17:25:06.273" endtime="20240329 17:25:06.291"/>
 </kw>
-<status status="PASS" start="2024-03-28T16:45:34.283791" elapsed="0.045857"/>
+<status status="PASS" starttime="20240329 17:25:06.222" endtime="20240329 17:25:06.291"/>
 </kw>
-<kw name="And user clicks log in button" owner="Keywords">
-<kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2024-03-28T16:45:34.330082" level="INFO">Clicking button 'login-button'.</msg>
+<kw name="And user clicks log in button" library="Keywords">
+<kw name="Click Button" library="SeleniumLibrary">
 <arg>login-button</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2024-03-28T16:45:34.329982" elapsed="0.234401"/>
+<msg timestamp="20240329 17:25:06.291" level="INFO">Clicking button 'login-button'.</msg>
+<status status="PASS" starttime="20240329 17:25:06.291" endtime="20240329 17:25:06.521"/>
 </kw>
-<status status="PASS" start="2024-03-28T16:45:34.329827" elapsed="0.234710"/>
+<status status="PASS" starttime="20240329 17:25:06.291" endtime="20240329 17:25:06.521"/>
 </kw>
-<kw name="Then user verifies error message exists for invalid log in" owner="Keywords">
-<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<kw name="Then user verifies error message exists for invalid log in" library="Keywords">
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <arg>Epic sadface: Username and password do not match any user in this service</arg>
 <doc>Waits until ``text`` appears on the current page.</doc>
-<status status="PASS" start="2024-03-28T16:45:34.565417" elapsed="0.003861"/>
+<status status="PASS" starttime="20240329 17:25:06.522" endtime="20240329 17:25:06.525"/>
 </kw>
-<status status="PASS" start="2024-03-28T16:45:34.565045" elapsed="0.004340"/>
+<status status="PASS" starttime="20240329 17:25:06.522" endtime="20240329 17:25:06.525"/>
 </kw>
-<status status="PASS" start="2024-03-28T16:45:34.283476" elapsed="0.286081"/>
+<status status="PASS" starttime="20240329 17:25:06.222" endtime="20240329 17:25:06.525"/>
 </test>
 <test id="s1-s2-t3" name="User verifies the closng of browser windows after execution" line="22">
-<kw name="And close all browsers" owner="SeleniumLibrary">
+<kw name="And close all browsers" library="SeleniumLibrary">
 <doc>Closes all open browsers and resets the browser cache.</doc>
-<status status="PASS" start="2024-03-28T16:45:34.570177" elapsed="0.586414"/>
+<status status="PASS" starttime="20240329 17:25:06.526" endtime="20240329 17:25:13.290"/>
 </kw>
-<status status="PASS" start="2024-03-28T16:45:34.569763" elapsed="0.587026"/>
+<status status="PASS" starttime="20240329 17:25:06.526" endtime="20240329 17:25:13.291"/>
 </test>
-<status status="PASS" start="2024-03-28T16:45:30.119042" elapsed="5.037988"/>
+<status status="PASS" starttime="20240329 17:24:58.360" endtime="20240329 17:25:13.293"/>
 </suite>
-<status status="PASS" start="2024-03-28T16:45:24.158244" elapsed="10.999177"/>
+<status status="PASS" starttime="20240329 17:24:43.899" endtime="20240329 17:25:13.297"/>
 </suite>
 <statistics>
 <total>
@@ -201,7 +201,5 @@
 </suite>
 </statistics>
 <errors>
-<msg time="2024-03-28T16:45:24.304879" level="ERROR">Error in file '/Users/angie/Desktop/Minidesktop/Automation/SauceDemo/Resources/PageObjectModel/Keywords.robot' on line 3: Resource file '../Data/Data.robot' does not exist.</msg>
-<msg time="2024-03-28T16:45:30.120849" level="ERROR">Error in file '/Users/angie/Desktop/Minidesktop/Automation/SauceDemo/Resources/PageObjectModel/Keywords.robot' on line 3: Resource file '../Data/Data.robot' does not exist.</msg>
 </errors>
 </robot>

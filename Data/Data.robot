@@ -1,5 +1,5 @@
 *** Variables ***
-${BROWSER} chrome
-${url} https://www.saucedemo.com/
+${BROWSER}  chrome
+${url}  https://www.saucedemo.com/
 
 

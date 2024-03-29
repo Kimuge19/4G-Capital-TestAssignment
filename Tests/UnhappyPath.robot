@@ -1,5 +1,5 @@
 *** Settings ***
-Library    SeleniumLibrary
+Library     SeleniumLibrary
 Resource  ../Resources/PageObjectModel/Keywords.robot
 
 #Suite Setup     Insert Testing Data
